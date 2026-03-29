@@ -122,5 +122,18 @@ sub <- function(x, y, plot = FALSE) {
 }
 
 
-install.packages("remotes")
-remotes::install_github("Mateus-Auza/Hello2World")
+require(remotes)
+remotes::install_github("Mateus-Auza/First-R-package", subdir = "Hello2World")
+
+
+
+
+
+
+
+
+
+
+
+
+
